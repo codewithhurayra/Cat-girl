@@ -49,12 +49,32 @@ footer p {
   font-size: px;
 }
 
-@media screen and (max-width: 992px) {
-  .motivation-girl{
-    margin: 30px;
-    width: 100px;
-    }
+@media screen and (max-width: 786px) {
+  html {
+    font-size: 50%;
   }
+  .cute {
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-left: 2%;
+    margin-top: 100px;
+  }
+  .motivation-girl {
+    border: solid 5px rgb(152, 86, 238);
+    border-radius: 50%;
+    width: 60%;
+    height: 100%;
+    cursor: pointer;
+  }
+  footer p {
+    text-align: center;
+    color: white;
+    margin-top: 36px;
+    font-family: "Poppins", serif;
+    letter-spacing: 2px;
+  }
+}
 
 footer a {
   color: rgb(174, 93, 240);
