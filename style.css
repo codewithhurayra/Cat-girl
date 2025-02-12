@@ -20,6 +20,8 @@ body {
   border-radius: 50%;
   width: 50%;
   height: 100%;
+  cursor: pointer;
+
 }
 
 h1 {
