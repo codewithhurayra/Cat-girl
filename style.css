@@ -49,6 +49,15 @@ footer p {
   font-size: px;
 }
 
+@media screen and (max-width: 992px) {
+  .motivation-girl{
+    margin: 30px;
+    width: 100px;
+    height: 100vh;  
+
+    }
+  }
+
 footer a {
   color: rgb(174, 93, 240);
   text-decoration: underline;
